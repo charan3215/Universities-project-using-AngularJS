@@ -1,0 +1,67 @@
+<div class="homeDiv">
+    <h1 style="text-align: center;">Welcome to home page</h1>
+    <div class="search-container">
+        <!-- <select>
+            <option>A</option>
+            <option>country</option>
+        </select> -->
+        <!-- <label for="startingLetter">Filter by Starting Letter:</label>
+        <select id="startingLetter" ng-model='selectedStartingLetter' >
+            <option value="">All</option>
+            <option ng-repeat="ele in alphabetArray">{{ele.letter}}</option>
+            <!-- <option ng-repeat="ch in alphabet" value="{{ ch }}">{{ alphabet }}</option> -->
+        </select> -->
+        
+        <label for="country">Search by Country:</label>
+        <input type="text" id="country" ng-model='searchCountry'placeholder="Enter country">
+        <button ng-click="searchUniversities()">Search</button>
+
+        <button ng-click="sortData()" >A-Z</button>
+        <table border="3" ng-show="sortTable">
+            <tr>
+                <th>University Name</th>
+                <th>country</th>
+                <th>alpha_two_code</th>
+                <th>Web pages</th>
+            </tr>
+            <tr ng-repeat="ele in arr | orderBy:'name' ">
+                <td >
+                    {{ele.name}}
+                </td>
+                <td>{{ele.country}}</td>
+                <td>{{ele.alpha_two_code}}</td>
+                <td>{{ele.web_pages}}</td>
+
+            </tr>
+            
+        </table>
+        <!-- <p>{{arr}}</p> -->
+        <div class="logout-container">
+            <button ng-click="validLogout()">Log out</button>
+            </div>
+
+        <!-- <ul>
+            <li ng-repeat="university in universities">{{ university.name }}</li>
+          </ul> -->
+
+        <table border="3" ng-show="showTable" >
+            <tr>
+                <th>University Name</th>
+                <th>country</th>
+                <th>alpha_two_code</th>
+                <th>Web pages</th>
+            </tr>
+            <tr ng-repeat="ele in arr ">
+                <td >
+                    {{ele.name}}
+                </td>
+                <td>{{ele.country}}</td>
+                <td>{{ele.alpha_two_code}}</td>
+                <td>{{ele.web_pages}}</td>
+
+            </tr>
+            
+        </table>
+      </div>
+    
+</div>

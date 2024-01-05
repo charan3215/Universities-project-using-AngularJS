@@ -1,0 +1,20 @@
+<div  class="regDiv">
+    <h2 id="h2">Sign Up</h2>
+    <br>
+    <form >
+        <label for="uname" class="lb2">Enter User name:</label>
+        <input type="text" id="uname" class="inp" ng-model="username" required>
+        <br>
+        <br>
+        <label for="uemail" class="lb2">Enter User Email:</label>
+        <input type="email" id="uemail" class="inp"ng-model="usermail" required>
+        <br>
+        <br>
+
+        <label for="upass" class="lb2">Enter New Password:</label>
+        <input type="password" id="upass" class="inp" ng-model="userpass" required>
+        <br>
+        <br>
+    </form>
+    <button class="bt1" ng-click="postData()">Sign Up</button>
+</div>

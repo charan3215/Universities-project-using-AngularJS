@@ -1,0 +1,19 @@
+
+<div class="signDiv">
+    
+    <h2 id="h">Sign In</h2>
+    <br>
+    <form >
+        <label for="userEmail" class="lb">User Email Id:</label>
+        <input type="email" id="userEmail" class=" in"ng-model="umail" required>
+        <br><br>
+        <label for="userpass" class="lb">Password:</label>
+        <input type="password" id="userpass" class="in" ng-model="upass" required>
+        <br><br>
+        <button id="bt"type="submit" ng-click="signIn()">Sign In</button>
+    </form>
+    <br>
+
+    <p >Don't have an account? <a href="" ng-click="redirectToregister()">Sign Up</a></p>
+   
+</div>

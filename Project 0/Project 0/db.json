@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "asdfg",
+      "email": "asdfg@gmail.com",
+      "pass": "12345",
+      "id": 1
+    },
+    {
+      "name": "sai charan",
+      "email": "charan3@gmail.com",
+      "pass": "3215",
+      "id": 2
+    },
+    {
+      "name": "s",
+      "email": "s@gmail.com",
+      "pass": "123",
+      "id": 3
+    },
+    {
+      "name": "sa",
+      "email": "sa3@gmail.com",
+      "pass": "asdfg",
+      "id": 4
+    },
+    {
+      "name": "sg",
+      "email": "sgca@gmal.com",
+      "pass": "345678",
+      "id": 5
+    },
+    {
+      "name": "fghj",
+      "email": "fghjk@gmail.com",
+      "pass": "7890-",
+      "id": 6
+    },
+    {
+      "name": "kumar",
+      "email": "kumar5@gmail.com",
+      "pass": "qwertyui",
+      "id": 7
+    }
+  ]
+}

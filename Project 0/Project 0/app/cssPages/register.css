@@ -1,0 +1,40 @@
+
+.regDiv {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#h2 {
+    color: #333;
+}
+
+.lb2 {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.inp {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.bt1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bt1:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../photo-1556365384-dac51b0c3692.avif') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signDiv {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#h {
+    color: #333;
+}
+
+.lb {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.in {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+#bt {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bt:hover {
+    background-color: #45a049;
+}
+
+.signup-link {
+    color: #333;
+    margin-top: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+ a:hover {
+    text-decoration: underline;
+}
